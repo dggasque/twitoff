@@ -7,11 +7,11 @@ verify_ssl = true
 
 [packages]
 flask = "*"
+basilica = "*"
 jinja2 = "*"
-bascilica = "*"
+psycopg2 = "*"
 tweepy = "*"
 redis = "*"
-psycopg2 = "*"
 flask-sqlalchemy = "*"
 gunicorn = "*"
 scikit-learn = "*"
