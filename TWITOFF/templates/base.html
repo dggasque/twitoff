@@ -2,21 +2,27 @@
 
 <!DOCTYPE html>
 <html>
+  <div style="overflow: hidden;height: 250px;"> <!-- For Demo, Represents the body -->
+
+    <nav class="demo">
+      <a href="" class="brand">
+        <title> Twitoff!! - {{ title }}</title>
+      </a>
+      <!-- responsive-->
+      <div class="menu">
+        <a href="reset" class="pseudo button icon-picture">Reset</a>
+        <a href="" class="pseudo button icon-picture">Home</a>
+      </div>
+    </nav>
+    
+    </div>
   <head>
     <title> Twitoff!! - {{ title }}</title>
     <!-- add in a stylesheet from picnicss.com -->
     <link rel="stylesheet" href="https://unpkg.com/picnic">
-    <button class="pseudo" action="/user" method="post">User</button>
-    <a class="pseudo button">Link</a>
-    <input class="pseudo" value="Submit" type="submit">
-    <label>
-      <input type="checkbox">
-      <span class="toggle pseudo button">Toggle</span>
-    </label>
   </head>
 
   <body>
-    <h1> Twitoff is cool! </h1>
     <article class="flex two" style="padding: 3em 1em;">
   {% block content %}
   <form action="/user" method="post">
