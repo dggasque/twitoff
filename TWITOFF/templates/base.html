@@ -14,7 +14,7 @@
   {% block content %}
   <form action="/user" method="post">
     <input type="text" name="user_name" placeholder="User to add">
-    <input type="submit" value="Add User">
+    <input type="submit" value="Add User" class="success">
   </form>
 
   <form action="/compare" method="post">
@@ -29,7 +29,7 @@
       {% endfor %}
     </select>
     <input type="text" name="tweet_text" placeholder="Tweet text to predict">
-    <input type="submit" value="Compare Users">
+    <input type="submit" value="Compare Users" class="success">
   </form>
 
   {% endblock %}
