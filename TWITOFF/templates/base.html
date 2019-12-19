@@ -2,29 +2,17 @@
 
 <!DOCTYPE html>
 <html>
-  <link rel="stylesheet" href="https://unpkg.com/picnic">
-  <div style="overflow: hidden;height: 250px;"> <!-- For Demo, Represents the body -->
-
-    <nav class="demo">
-      <a href="#" class="brand">
-        <img class="logo" src="/web/img/basket.png" />
-        <span>Picnic CSS</span>
-      </a>
-    
-      <!-- responsive-->
-      <input id="bmenub" type="checkbox" class="show">
-      <label for="bmenub" class="burger pseudo button">menu</label>
-    
-      <div class="menu">
-        <a href="#" class="pseudo button icon-picture">Demo</a>
-        <a href="#" class="button icon-puzzle">Plugins</a>
-      </div>
-    </nav>
-    
-    </div>
   <head>
     <title> Twitoff!! - {{ title }}</title>
     <!-- add in a stylesheet from picnicss.com -->
+    <link rel="stylesheet" href="https://unpkg.com/picnic">
+    <button class="pseudo" action="/user" method="post">User</button>
+    <a class="pseudo button">Link</a>
+    <input class="pseudo" value="Submit" type="submit">
+    <label>
+      <input type="checkbox">
+      <span class="toggle pseudo button">Toggle</span>
+    </label>
   </head>
 
   <body>
